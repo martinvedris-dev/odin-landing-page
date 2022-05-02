@@ -46,13 +46,13 @@ ul {
     width: 415px;
 }
 
-.title {
+.hero-title {
     color: #F9FAF8;
     font-size: 48px;
     font-weight: 800;
 }
 
-.text {
+.hero-text {
     color: #E5E7EB;
     font-size: 18px;
     padding-top: 12px;
