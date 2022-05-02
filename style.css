@@ -108,6 +108,29 @@ button {
     text-align: right;
 }
 
+/* action container */
+.action-container {
+    color: #F9FAF8;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+    padding: 60px 50px;
+    margin: 120px 325px;
+    border-radius: 12px;
+}
+
+.action-title {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.button-two {
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border: 2px solid;
+    border-color: #F9FAF8;
+}
+
 /* footer */
 .footer {
     color: #E5E7EB;
