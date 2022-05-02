@@ -87,6 +87,44 @@ button {
     width: 600px;
 }
 
+/* information-container */
+.information-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.information-title {
+    color: #1F2937;
+    font-size: 34px;
+    font-weight: 800;
+    text-align: center;
+    padding: 50px;
+}
+
+.item-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+    padding-bottom: 85px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 180px;
+}
+
+.item-img {
+    height: 150px;
+    width: 150px;
+    border: 3px solid #3882F6;
+    border-radius: 12px;
+}
+
 /* quote-container */
 .quote-container {
     background: #E5E7EB;
