@@ -51,7 +51,7 @@ a {
     justify-content: space-around;
 }
 
-.title {
+.hero-title {
     color: #F9FAF8;
     font-size: 48px;
     font-weight: 800;
@@ -78,6 +78,46 @@ a {
     padding: 6px 18px;
     border-radius: 6px;
     font-size: 14px;
+}
+
+/* RANDOM INFO */
+.random-info {
+    margin-bottom: 128px;
+}
+
+.random-title {
+    text-align: center;
+    color:#1F2637;
+    padding: 32px;
+}
+
+.random-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+}
+
+.random-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 165px;
+}
+
+.random-img {
+    width: 160px;
+    height: 160px;
+    border: 2px solid #3882F6;
+    border-radius: 14px;
+}
+
+.random-description {
+    color: #1F2637;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
 }
 
 /* QUOTE */
