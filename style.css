@@ -12,6 +12,20 @@ a {
     text-decoration: none;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.links,
+.description,
+.call-description {
+    color: #E5E7EB;
+    font-size: 18px;
+    font-weight: 300;
+}
+
 /* HEADER */
 
 .header {
@@ -34,22 +48,12 @@ a {
     font-weight: 700;
 }
 
-.links,
-.description,
-.call-description {
-    color: #E5E7EB;
-    font-size: 18px;
-    font-weight: 300;
-}
-
 /* HERO */
 .hero {
     background-color: #1F2637;
     display: flex;
-    padding: 32px;
-    display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .hero-title {
@@ -58,12 +62,8 @@ a {
     font-weight: 800;
 }
 
-.description {
-    margin-bottom: 12px;
-}
-
 .img-placeholder {
-    width: 450px;
+    width: 600px;
     height: 250px;
     color: #F9FAF8;
     background-color: #6D747D;
@@ -77,14 +77,11 @@ a {
     background-color: #3882F6;
     border: none;
     padding: 6px 18px;
-    border-radius: 6px;
+    border-radius: 8px;
     font-size: 14px;
 }
 
 /* RANDOM INFO */
-.random-info {
-    margin-bottom: 128px;
-}
 
 .random-title {
     text-align: center;
@@ -96,7 +93,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 32px;
+    gap: 64px;
 }
 
 .random-item {
@@ -123,11 +120,9 @@ a {
 
 /* QUOTE */
 .quote {
-    /* 532px */
     background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
-    padding: 32px 128px;
 }
 
 .quote-text {
@@ -149,9 +144,10 @@ a {
 .call-action {
     background-color: #3882F6;
     margin: 64px;
-    padding: 32px 48px;
     display: flex;
+    align-items: center;
     justify-content: space-between;
+    border-radius: 8px;
 }
 
 .call-title {
@@ -169,7 +165,7 @@ a {
     background-color: #3882F6;
     border: 2px solid #F9FAF8;
     padding: 6px 18px;
-    border-radius: 6px;
+    border-radius: 8px;
     font-size: 14px;
 }
 
@@ -181,5 +177,5 @@ a {
     color: #E5E7EB;
     background-color: #1F2937;
     font-size: 18px;
-    padding: 24px;
+    padding: 32px;
 }
