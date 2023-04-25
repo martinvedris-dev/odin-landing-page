@@ -35,7 +35,8 @@ a {
 }
 
 .links,
-.description {
+.description,
+.call-description {
     color: #E5E7EB;
     font-size: 18px;
     font-weight: 300;
@@ -142,6 +143,34 @@ a {
     font-weight: 700;
     display: flex;
     margin-left: auto;
+}
+
+/* CALL TO ACTION */
+.call-action {
+    background-color: #3882F6;
+    margin: 64px;
+    padding: 32px 48px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.call-title {
+    color: #F9FAF8;
+}
+
+.right-call {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-2 {
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border: 2px solid #F9FAF8;
+    padding: 6px 18px;
+    border-radius: 6px;
+    font-size: 14px;
 }
 
 /* FOOTER */
